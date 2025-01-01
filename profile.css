@@ -1,0 +1,71 @@
+/* General reset and base styling */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  body {
+    background-color: #f9f9f9;
+  }
+  
+  /* Home Section */
+  .profile-container {
+    background-color: #1e201e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+  }
+  .profile-card {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 400px;
+    text-align: center;
+}
+.profile-details {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 10px 0;
+}
+
+.profile-details td {
+  padding: 10px;
+  text-align: left;
+}
+
+.label {
+  font-weight: bold;
+  color: #1e201e;
+  font-weight: 700;
+}
+
+.value {
+  text-align: right;
+  color: #1e201e;
+}
+
+button {
+  background: linear-gradient(45deg, #f97316, #ec4899);
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+.img {
+ font-size: 100px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  color: #1e201e;
+}

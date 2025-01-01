@@ -1,0 +1,38 @@
+
+.container1 {
+  background-color: #1e201e;
+  width: 100%;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+.about {
+  text-align: center;
+  display: flex;
+  margin: 0 20px 0 20px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.about h1 {
+  color: white;
+  font-weight: 700;
+  font-size: 50px;
+}
+.about p {
+  color: white;
+  letter-spacing: 2px;
+  line-height: 1.5;
+  font-weight: 600;
+}
+.image img{
+  width: 539px;
+  height: 360px;
+}

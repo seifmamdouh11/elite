@@ -1,0 +1,84 @@
+#fname {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  box-sizing: border-box;
+  background-color: #ccc;
+}
+.reservesec {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: max-content;
+  background-color: #f9f9f9;
+  padding: 20px;
+}
+
+#phone {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+#ServiceName {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+form {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: fit-content;
+}
+h2{
+  text-align: center;
+}
+p{
+  text-align: center;
+}
+#label{
+  font-size: 13px;
+  font-weight: 700;
+}
+
+footer{
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.left a{
+  color:white;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 600;
+}
+.social{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.social a{
+  text-decoration: none;
+  color:white;
+  font-size: 13px;
+  font-weight: 700;
+}
+.social i{
+  color:white;
+  font-size: 20px;
+  margin: 0 8px;
+  font-weight: 700;
+}

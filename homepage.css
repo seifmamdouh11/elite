@@ -1,0 +1,59 @@
+/* General reset and base styling */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  body {
+    background-color: #f9f9f9;
+  }
+  
+  /* Home Section */
+  .homesec {
+    background-color: #1e201e;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+    position: relative;
+    height: 100vh;
+  }
+  
+  .homesec .container1 {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  .homesec .title {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.3;
+    color: #fff;
+  }
+  
+  .homesec .buttons {
+    margin-top: 40px;
+  }
+  
+  .homesec .button {
+    background-color: #3c3d37;
+    color: white;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 30px;
+    text-decoration: none;
+    display: inline-block;
+    transition: 0.3s ease;
+  }
+  
+  .homesec .button:hover {
+    background-color: #1e201e;
+    transform: translateY(-3px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  }
+  
